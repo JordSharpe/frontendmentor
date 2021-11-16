@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+body {
+  height: 100vh;
+  padding: 1.6rem;
+}
+
+main {
+  border-radius: 10px;
+  overflow: hidden;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto auto;
+  max-width: 61.333333333336rem;
+  height: 100%;
+}
+
+.heading {
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+  font-size: 2.66rem;
+  text-transform: uppercase;
+  color: #f2f2f2;
+  margin: 0.75em 0;
+}
+
+body, .btn {
+  background-color: #f2f2f2;
+}
+
+.info {
+  color: rgba(255, 255, 255, 0.75);
+  width: 14rem;
+  line-height: 1.6;
+  margin-bottom: 5.66rem;
+}
+
+.card {
+  padding: 3.1rem;
+}
+
+.btn {
+  padding: 1em 2em;
+  border-radius: 1000px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.suv {
+  background-color: #006970;
+}
+
+.suv .btn {
+  color: #006970;
+}
+
+.sedan {
+  background-color: #e38826;
+}
+
+.sedan .btn {
+  color: #e38826;
+}
+
+.luxury {
+  background-color: #004241;
+}
+
+.luxury .btn {
+  color: #004241;
+}
+
+@media (max-width: 50.66rem) {
+  body {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .card {
+    width: minmax(21.86rem, 100%);
+  }
+  .info {
+    margin-bottom: 1.86rem;
+  }
+}
+
+.btn:hover {
+  outline: 2px solid #f2f2f2;
+  color: #f2f2f2;
+  background-color: transparent;
+}
+/*# sourceMappingURL=style.css.map */
